@@ -1,57 +1,78 @@
 <!DOCTYPE HTML>
+<!-- Phantom by HTML5 UP | html5up.net | @ajlkn -->
 <html>
 	<head>
 		<title>Your Music Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-		<style>
-			body { font-family: sans-serif; margin: 2rem; background: #f4f4f4; }
-			h1, h2 { text-align: center; }
-			.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-			.card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-			audio { width: 100%; margin-top: 1rem; }
-		</style>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ajlkn/html5up-phantom/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ajlkn/html5up-phantom/assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
-		<header>
-			<h1>Your Name / Music Portfolio</h1>
-			<p style="text-align: center;">Composer • Musician • Creator</p>
-		</header>
+	<body class="is-preload">
 
-		<section>
-			<h2>Featured Music</h2>
-			<div class="grid">
-				<div class="card">
-					<h3>Track One</h3>
-					<p>A moody piano solo with emotional dynamics.</p>
-					<audio controls>
-						<source src="assets/audio/track1.mp3" type="audio/mpeg">
-						Your browser does not support the audio element.
-					</audio>
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<h1><strong>Your Name</strong> / Music Portfolio</h1>
+					<p>Composer • Musician • Creator</p>
 				</div>
-				<div class="card">
-					<h3>Track Two</h3>
-					<p>Electronic beat-driven track with synth layering.</p>
-					<audio controls>
-						<source src="assets/audio/track2.mp3" type="audio/mpeg">
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-				<div class="card">
-					<h3>Track Three</h3>
-					<p>Chill acoustic guitar with ambient textures.</p>
-					<audio controls>
-						<source src="assets/audio/track3.mp3" type="audio/mpeg">
-						Your browser does not support the audio element.
-					</audio>
+			</header>
+
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+					<header>
+						<h2>Featured Music</h2>
+					</header>
+					<section class="tiles">
+						<article class="style1">
+							<span class="image"><img src="assets/images/thumb1.jpg" alt="" /></span>
+							<a href="#">
+								<h2>Track One</h2>
+								<div class="content">
+									<p>A moody piano solo with emotional dynamics.</p>
+									<audio controls><source src="assets/audio/track1.mp3" type="audio/mpeg" /></audio>
+								</div>
+							</a>
+						</article>
+						<article class="style2">
+							<span class="image"><img src="assets/images/thumb2.jpg" alt="" /></span>
+							<a href="#">
+								<h2>Track Two</h2>
+								<div class="content">
+									<p>Electronic beat-driven track with synth layering.</p>
+									<audio controls><source src="assets/audio/track2.mp3" type="audio/mpeg" /></audio>
+								</div>
+							</a>
+						</article>
+						<article class="style3">
+							<span class="image"><img src="assets/images/thumb3.jpg" alt="" /></span>
+							<a href="#">
+								<h2>Track Three</h2>
+								<div class="content">
+									<p>Chill acoustic guitar with ambient textures.</p>
+									<audio controls><source src="assets/audio/track3.mp3" type="audio/mpeg" /></audio>
+								</div>
+							</a>
+						</article>
+					</section>
 				</div>
 			</div>
-		</section>
 
-		<section style="text-align: center; margin-top: 4rem;">
-			<h2>Contact</h2>
-			<p>Email me at <a href="mailto:you@example.com">you@example.com</a></p>
-		</section>
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<section>
+						<h2>Contact</h2>
+						<p>Email me at <a href="mailto:you@example.com">you@example.com</a></p>
+					</section>
+				</div>
+			</footer>
+
+		</div>
+
 	</body>
 </html>
