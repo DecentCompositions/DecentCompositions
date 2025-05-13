@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Your Music Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<style>
+			body { font-family: sans-serif; margin: 2rem; background: #f4f4f4; }
+			h1, h2 { text-align: center; }
+			.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+			.card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+			audio { width: 100%; margin-top: 1rem; }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Your Name / Music Portfolio</h1>
+			<p style="text-align: center;">Composer • Musician • Creator</p>
+		</header>
+
+		<section>
+			<h2>Featured Music</h2>
+			<div class="grid">
+				<div class="card">
+					<h3>Track One</h3>
+					<p>A moody piano solo with emotional dynamics.</p>
+					<audio controls>
+						<source src="assets/audio/track1.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
+				</div>
+				<div class="card">
+					<h3>Track Two</h3>
+					<p>Electronic beat-driven track with synth layering.</p>
+					<audio controls>
+						<source src="assets/audio/track2.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
+				</div>
+				<div class="card">
+					<h3>Track Three</h3>
+					<p>Chill acoustic guitar with ambient textures.</p>
+					<audio controls>
+						<source src="assets/audio/track3.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
+				</div>
+			</div>
+		</section>
+
+		<section style="text-align: center; margin-top: 4rem;">
+			<h2>Contact</h2>
+			<p>Email me at <a href="mailto:you@example.com">you@example.com</a></p>
+		</section>
+	</body>
+</html>
